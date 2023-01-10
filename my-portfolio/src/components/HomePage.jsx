@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import './homepage.css'
 import { useNavigate } from 'react-router-dom'
+import cartoon from "../images/cartoon-image.png"
 
 const HomeDiv = styled.div`
     font-family: 'Catamaran';
@@ -20,8 +21,9 @@ const HomePage = () => {
                         Welcome To My Portfolio!
                     </h1>
                     <br />
-                    <p className='text' id="p-text">Click on the about me button to learn more</p>
-                <button id="read-me-button" onClick={() => navigate('/about')}>About me</button>
+                    <img src={cartoon} alt='cartoon-image' id='cartoon-image'/>
+                    {/* <p className='text' id="p-text">Click on the about me button to learn more</p> */}
+                <button className="read-me-button" onClick={() => navigate('/about')}>About me</button>
                 </header>
             </HomeDiv>
         )

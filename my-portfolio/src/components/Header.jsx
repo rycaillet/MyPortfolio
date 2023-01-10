@@ -19,9 +19,10 @@ const NavDiv = styled.div`
     justify-content: space-around;
         a {
         font-size: 2rem;
-        color: blackx;
+        color: black;
         font-weight: bold;
         text-decoration: all .4s;
+        text-decoration: none;
         &:focus, &:hover {
             text-decoration: none;
             color: rgb(245, 11, 11);
