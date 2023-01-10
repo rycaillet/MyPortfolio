@@ -19,7 +19,7 @@ const NavDiv = styled.div`
     justify-content: space-around;
         a {
         font-size: 2rem;
-        color: white;
+        color: blackx;
         font-weight: bold;
         text-decoration: all .4s;
         &:focus, &:hover {
@@ -31,10 +31,10 @@ const NavDiv = styled.div`
         `
 
 const HeaderDiv = styled.div`
-    background-image: url('https://images.pexels.com/photos/920534/pexels-photo-920534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    // background-image: url('https://images.pexels.com/photos/920534/pexels-photo-920534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    // background-size:cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
     padding: 2rem;
     text-align: center;
     font-family: 'Special Elite', cursive;
@@ -43,7 +43,7 @@ const HeaderDiv = styled.div`
     `
 
 const ProfileTitle = styled.h1`
-    color: white;
+    color: black;
     font-weight: bold;
     margin: 2rem;
 `

@@ -2,8 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 const AboutDiv = styled.div`
+    background-image: url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Catamaran';
     text-align: center;
+    color: white;
     p {
         font-size: 1.7rem;
     }

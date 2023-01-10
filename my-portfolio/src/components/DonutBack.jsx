@@ -18,7 +18,7 @@ const DonutBack = () => {
                     <p>React.js front-end</p>
                     <p>MongoDB with Mongoose for database management</p>
                     <p>Project Planning - Trello, Lucid Chart, Draw.io</p>
-                    <p>Live Site @<a href=""> Donut App</a></p>
+                    <p>Github <a href="https://github.com/rycaillet/Donut-App"> Donut App</a></p>
                 </Card>
             </BackDiv>
         )

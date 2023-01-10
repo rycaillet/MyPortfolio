@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import FlipCard from './components/FlipCard'
 import About from './components/About'
+import HomePage from './components/HomePage'
 
 const AppDiv = styled.div`
   display: flex;
@@ -26,6 +27,7 @@ function App() {
         <Header />
         <Body>
           <Routes>
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<FlipCard />} />
           </Routes>

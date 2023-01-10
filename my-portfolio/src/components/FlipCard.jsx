@@ -14,9 +14,9 @@ const FlipCards = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 60vw;
+  max-width: 45vw;
   p {
-        font-size: 1.5vw;
+        font-size: 1.1vw;
         margin: .25vw;
         }
       h3 {
@@ -45,7 +45,7 @@ const FlipCard = () => {
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
-                    flipDirection="horizontal"
+                    flipDirection="vertical"
                 >
                     <FrontSide>
                         <FiosFront />
@@ -77,7 +77,7 @@ const FlipCard = () => {
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
-                    flipDirection="horizontal"
+                    flipDirection="vertical"
                 >
                     <FrontSide>
                         <DonutFront />

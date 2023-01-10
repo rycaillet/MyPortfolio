@@ -24,6 +24,7 @@ const FiosBack = () => {
                     <p>React.js front-end</p>
                     <p>PostgresQL database</p>
                     <p>Project Planning - Lucidchart, Trello, Draw.io</p>
+                    <p>Live Site @<a href="https://starz-app.herokuapp.com/">The Fault In Our Stars</a></p>
                 </Card>
             </BackDiv>
         )

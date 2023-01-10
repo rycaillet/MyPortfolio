@@ -16,7 +16,7 @@ const LostOnesFront = () => {
                 <Card>
                     <picture>
                         <source srcSet={LostOnes} type="image/jp2" />
-                        <img src={LostOnesAlt} alt="Lost Ones" />
+                        <img src={LostOnes} alt="Lost Ones" />
                     </picture>
                 </Card>
             </FrontDiv>

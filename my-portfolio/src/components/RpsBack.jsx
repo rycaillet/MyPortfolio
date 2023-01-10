@@ -14,7 +14,7 @@ const RpsBack = () => {
                     <p>RPS is rock, paper, scissors created with only HTML, CSS, and Javascript and keeps score of the user vs computer.</p>
                     <h3>Technologies</h3>
                     <p>HTML, CSS, and Javascript</p>
-                    <p>Live Site @<a href=""> RPS</a></p>
+                    <p>Live Site @<a href="https://ryan-caillet-rps.surge.sh/"> RPS</a></p>
                 </Card>
             </BackDiv>
         )
