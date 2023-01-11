@@ -17,7 +17,7 @@ const FiosBack = () => {
             <BackDiv>
                 <Card>
                 <h3>The Fault In Our Stars</h3>
-                    <p>The Faults In Our Stars is a hyper-personalized, social experience bringing astrology into the 22nd century. Our aim is to create social circles revolving around zodiac signs. This website will allow you to connect to people that are compatible to your zodiac sign and at the same time rate the users based on their personalities and sign compatibility; wether good or bad, create new social circles, that will improve you work and love life.</p>
+                    <p>The Faults In Our Stars is a hyper-personalized, social experience bringing astrology into the 22nd century. Our aim is to create social circles revolving around zodiac signs. This website will allow you to connect to people that are compatible to your zodiac sign and at the same time rate the users based on their personalities and sign compatibility; whether good or bad, create new social circles, that will improve your work and love life.</p>
                     <h3>Technologies</h3>
                     <p>HTML, CSS, and Javascript</p>
                     <p>Node.js with Express</p>

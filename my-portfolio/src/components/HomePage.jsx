@@ -26,6 +26,7 @@ const HomePage = () => {
                 <button className="read-me-button" onClick={() => navigate('/about')}>About me</button>
                 </header>
             </HomeDiv>
+            
         )
     }
 
